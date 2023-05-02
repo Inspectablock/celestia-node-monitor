@@ -30,7 +30,7 @@ Install the required python modules
 
 `pipenv install`
 
-**Ensure that the 'cache' directory is writeable by the user running the script.**
+**Ensure that the 'cache' directory is writable by the user running the script.**
 
 Run the tool
 
