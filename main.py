@@ -49,7 +49,6 @@ def main(argv):
             if response.status_code == 200:
                 data = response.json()
                 if 'result' in data:
-                    print(data)
                     block = int(data['result']['header']['height'])
                 
 
